@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot Wheels Store</title>
+    <title>Cars Ministry - A Hot Wheels Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,8 +16,8 @@
         <img src="banner.jpg" alt="Hot Wheels Banner">
     </section>
 
-    <section class="upload-form">
-        <h2>Upload New Product</h2>
+    <section id="adminPanel" style="display: none;">
+        <h2>Admin Panel: Upload New Product</h2>
         <form id="uploadForm">
             <label for="productImage">Product Image:</label>
             <input type="file" id="productImage" accept="image/*" required><br>
@@ -36,7 +36,7 @@
     </section>
 
     <section class="products" id="productList">
-        <!-- Products will be added dynamically here -->
+        <!-- Products will be dynamically displayed here -->
     </section>
 
     <script src="script.js"></script>
